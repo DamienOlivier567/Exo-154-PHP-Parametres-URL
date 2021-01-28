@@ -11,6 +11,7 @@
 
 // TODO Votre code ici.
 
+echo "<a href='exo1.php?iteration=10'>Lien vers la page exo 1</a><br>";
 
 /**
  * Exo 2
@@ -19,6 +20,11 @@
  * Créez au moins 10 liens à l'aide d'une boucle !!!
  * Pour chaque lien, le paramètre iteration prendra la valeur actuelle de votre variable de boucle ( $i par exemple ).
  */
+
+
+for ($i = 1; $i <= 10; $i++) echo "<a href='exo1.php?iteration=".$i."'>Lien vers la page exo 2 avec ".$i." iteration</a><br>";
+
+?>
 
 
 
